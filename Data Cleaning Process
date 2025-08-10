@@ -1,0 +1,8 @@
+Data Cleaning Steps
+
+Check for duplicates
+CLEAN AND FILL MISSING VALUES in the columns
+Deleted Rows with missing values as they represent a very small (0.4%) for the total data
+REPLACED INCONSISTENT VALUES IN PAYMENT_METHOD WITH 'UNKNOWN'
+REPLACED INCONSISTENT VALUES IN LOCATION WITH 'UNKNOWN'
+Replaced Null values in Transaction_date with '1900-01-01' - Default date
